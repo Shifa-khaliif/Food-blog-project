@@ -1,0 +1,151 @@
+/* @import url(font-awesome.main.css);
+
+body{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+header{
+    min-height: 90%;
+    background: #212020;
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+
+header-container-fluid{
+    max-width: 1850px;
+}
+
+.right_header_info{
+    width: 100;
+    float: left;
+    padding: 20px 0 0;
+
+}
+.right_header_info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.right_header_info ul li{
+    display: inline;
+    font-size: 16px;
+    margin-left: 45px;
+    color: #eaeaea;
+    font-weight: 400;
+    float: left;
+}
+
+.right_header_info ul li a{
+    color: #eaeaea;
+    font-weight: 300;
+}
+
+.button_user a{
+    float: left;
+    min-width: 75px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    position:relative ;
+    top: -7px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: solid #eaeaea;
+
+}
+
+.button_user a:hover, .button_user a:focus, .button_user a:active{
+    background: #e3d105;
+    color: #fff;
+    border-color: #e3d105;
+    color: #222;
+
+}
+
+#slidebarCollapse{
+    background: transparent;
+}
+
+.slide_section{
+    background: #212020;
+    min-height: 100vh;
+    padding-top: 93px;
+} */
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #212020;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+.menu-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Sidebar Menu Button */
+#sidebarCollapse {
+    background: transparent;
+}
+
+/* Slider Section */
+.slider_section {
+    background: #212020;
+    min-height: 100vh;
+    padding-top: 93px;
+}
